@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3169E8481FB595880022F64E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF0F021EDFF03A00C0ACC1 /* main.swift */; };
 		470A721A1EFA472C00858E5A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470A72191EFA472C00858E5A /* main.swift */; };
 		472594291EF8BEF60036F064 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472594281EF8BEF60036F064 /* main.swift */; };
 		472594341EF8C6CD0036F064 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472594331EF8C6CD0036F064 /* main.swift */; };
@@ -40,7 +41,6 @@
 		47CA67EA1EF0DDE700A17FAC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CA67E91EF0DDE700A17FAC /* main.swift */; };
 		47D422991F176F80005DEFF0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D422981F176F80005DEFF0 /* main.swift */; };
 		47F59D861F146116003BA564 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F59D851F146116003BA564 /* main.swift */; };
-		47FF0F031EDFF03A00C0ACC1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF0F021EDFF03A00C0ACC1 /* main.swift */; };
 		47FF0F101EDFF0B000C0ACC1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF0F0F1EDFF0B000C0ACC1 /* main.swift */; };
 		47FF0F1B1EDFF0F200C0ACC1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF0F1A1EDFF0F200C0ACC1 /* main.swift */; };
 		47FF0F261EDFF41A00C0ACC1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF0F251EDFF41A00C0ACC1 /* main.swift */; };
@@ -1975,7 +1975,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = HaRi;
 				TargetAttributes = {
 					470A72161EFA472C00858E5A = {
@@ -2146,6 +2146,7 @@
 					47FF0EFE1EDFF03A00C0ACC1 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = WTB2BKP7UZ;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					47FF0F0C1EDFF0B000C0ACC1 = {
@@ -2517,7 +2518,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47FF0F031EDFF03A00C0ACC1 /* main.swift in Sources */,
+				3169E8481FB595880022F64E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3192,7 +3193,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -3200,7 +3203,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -3241,7 +3248,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -3249,7 +3258,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -3269,6 +3282,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -3277,7 +3291,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -3286,7 +3301,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = WTB2BKP7UZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -3588,6 +3604,7 @@
 				479046791F3300B50012DC0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		479CAEBC1EE8FD1000C1A9D9 /* Build configuration list for PBXNativeTarget "数组其他操作" */ = {
 			isa = XCConfigurationList;
